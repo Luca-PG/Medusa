@@ -7,7 +7,6 @@ A clone of my old project on codeplex (https://medusa.codeplex.com/).
 
 
 ! Project Description
-{project:description}
 The project is still in early development, but it is already good enough to make effects like blade swings and laser beams with a minimum effort.
 
 
@@ -27,10 +26,6 @@ The project is still in early development, but it is already good enough to make
 * Add a better type editor for Color.
 
 
-A screenshot of the test project
-[image:trailtest thumb.png]
-full size : [url:http://i55.tinypic.com/2q0twnt.png]
+A screenshot of the test project http://i55.tinypic.com/2q0twnt.png
 
-A screenshot of the editor
-[image:traileditor thumb.png]
-full size : [url:http://i52.tinypic.com/2qx3h29.png]
+A screenshot of the editor http://i52.tinypic.com/2qx3h29.png
