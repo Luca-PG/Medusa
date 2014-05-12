@@ -6,8 +6,10 @@ Ribbon Trail Engine (C#, XNA)
 A clone of my old project on codeplex (https://medusa.codeplex.com/).
 
 
+
+
 ! Project Description
-The project is still in early development, but it is already good enough to make effects like blade swings and laser beams with a minimum effort.
+Medusa Trail Engine can be used to create ribbon trail-based visual effects in videogames. It's developed in C# for the XNA framework. The project is still in early development, but it is already good enough to make effects like blade swings and laser beams with a minimum effort.
 
 
 ! Engine todo list:
