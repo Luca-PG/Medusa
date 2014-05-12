@@ -24,8 +24,3 @@ The project is still in early development, but it is already good enough to make
 * Support trail freezing.
 * Add more ways to view the trail, like dragging it with the mouse.
 * Add a better type editor for Color.
-
-
-A screenshot of the test project http://i55.tinypic.com/2q0twnt.png
-
-A screenshot of the editor http://i52.tinypic.com/2qx3h29.png
