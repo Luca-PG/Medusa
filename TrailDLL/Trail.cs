@@ -51,20 +51,20 @@ namespace TrailDLL
 
 		#region Private Fields
 
-		protected bool								m_bColored;
+        protected bool		                        m_bColored;
         protected bool                              m_bFreeze;
         protected BlendState                        m_hBlending;
-		protected Vector4				            m_vStartColor;
-		protected Vector4				            m_vEndColor;
+        protected Vector4	                        m_vStartColor;
+        protected Vector4	                        m_vEndColor;
         protected Texture2D                         m_hTexture;
-		protected float				                m_fRadius;
-
-		protected bool								m_bShrinking; 
+        protected float		                        m_fRadius;
+        
+        protected bool								m_bShrinking; 
         protected int                               m_iPrimitiveCount;
         protected int								m_iCurrentLength;   //current lenght, expressed in TrailSegments
         protected VertexPositionColor4Texture[]     m_vVertexData;
         protected DepthStencilState                 m_hStencilState;
-		internal  TrailStack<TrailSegment>		    m_hSegmentStack;
+        internal  TrailStack<TrailSegment>		    m_hSegmentStack;
         internal  BasicEffect                       m_hEffect;
 
         List<Vector3> m_hPositions;
