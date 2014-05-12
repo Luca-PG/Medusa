@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrailDLL.TrailBeamBillboard" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailBeamBillboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailBeamRibbon" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailBeamRibbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailSimpleBillboard" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailSimpleBillboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailSimpleRibbon" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailSimpleRibbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailStretchedBillboard" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailStretchedBillboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailStretchedRibbon" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\Concrete Trails\TrailStretchedRibbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailBeam" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\TrailBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailSimple" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\TrailSimple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailStretched" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Inherithed from Trail\TrailStretched.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.Trail">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAYIAAEKQKQABg0gBEAAAABIZAAIQAAIQAALAiFAAAM=</HashCode>
+      <FileName>Trail.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_hVertexData" />
+      <Field Name="m_hSegmentStack" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TrailDLL.TrailFactory" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrailFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailStack&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAABQAACAQBAAQAAACCEAAAAAACAAkACAQ=</HashCode>
+      <FileName>TrailQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrailDLL.TrailSegment" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAwCAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TrailSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TrailDLL.VertexPositionColor4Texture" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAAAAABAAAABAAAAgAAAAAA=</HashCode>
+      <FileName>Trail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="TrailDLL.ITrail">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAIQABAAAAEAAAABAAAAAQAAAQAAAAgEAAAI=</HashCode>
+      <FileName>ITrail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TrailDLL.TrailTexturing" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>TrailFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
